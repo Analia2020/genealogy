@@ -1,0 +1,105 @@
+[
+    {
+        "dni": "11111111A",
+        "nombre": "Homer",
+        "apellido": "Simpson",
+        "fecha_nacimiento": "1956-05-12",
+        "dni_padre": "33333333C",
+        "dni_madre": "44444444D",
+        "dni_esposa": "22222222B",
+        "foto": "familia_simpson/Homer_Simpson.png"
+    },
+    {
+        "dni": "22222222B",
+        "nombre": "Marge",
+        "apellido": "Bouvier",
+        "fecha_nacimiento": "1956-10-01",
+        "dni_padre": "55555555E",
+        "dni_madre": "66666666F",
+        "dni_esposo": "11111111A",
+        "foto": "familia_simpson/Marge_Bouvier.png"
+    },
+    {
+        "dni": "25252525B",
+        "nombre": "Paty",
+        "apellido": "Bouvier",
+        "fecha_nacimiento": "1950-10-01",
+        "dni_padre": "55555555E",
+        "dni_madre": "66666666F",
+        "dni_esposo": null,
+        "foto": "familia_simpson/Paty_Bouvier.png"
+    },
+    {
+        "dni": "24242424B",
+        "nombre": "Selma",
+        "apellido": "Bouvier",
+        "fecha_nacimiento": "1950-10-01",
+        "dni_padre": "55555555E",
+        "dni_madre": "66666666F",
+        "dni_esposo": null,
+        "foto": "familia_simpson/Selma_Bouvier.png"
+    },
+    {
+        "dni": "33333333C",
+        "nombre": "Abraham",
+        "apellido": "Simpson",
+        "fecha_nacimiento": "1920-05-25",
+        "dni_padre": null,
+        "dni_madre": null,
+        "foto": "familia_simpson/Abraham_Simpson.png"
+    },
+    {
+        "dni": "44444444D",
+        "nombre": "Mona",
+        "apellido": "Olsen",
+        "fecha_nacimiento": "1929-03-15",
+        "dni_padre": null,
+        "dni_madre": null,
+        "foto": "familia_simpson/Mona_Olsen.png"
+    },
+    {
+        "dni": "55555555E",
+        "nombre": "Clancy",
+        "apellido": "Bouvier",
+        "fecha_nacimiento": "1930-01-02",
+        "dni_padre": null,
+        "dni_madre": null,
+        "foto": "familia_simpson/Clancy_Bouvier.png"
+    },
+    {
+        "dni": "66666666F",
+        "nombre": "Jacqueline",
+        "apellido": "Bouvier",
+        "fecha_nacimiento": "1935-08-11",
+        "dni_padre": null,
+        "dni_madre": null,
+        "foto": "familia_simpson/Jacqueline_Bouvier.png"
+    },
+    {
+        "dni": "77777777G",
+        "nombre": "Bart",
+        "apellido": "Simpson",
+        "fecha_nacimiento": "1980-04-01",
+        "dni_padre": "11111111A",
+        "dni_madre": "22222222B",
+        "foto": "familia_simpson/Bart_Simpson.png"
+    },
+    {
+        "dni": "88888888H",
+        "nombre": "Lisa",
+        "apellido": "Simpson",
+        "fecha_nacimiento": "1982-05-09",
+        "dni_padre": "11111111A",
+        "dni_madre": "22222222B",
+        "foto": "familia_simpson/Lisa_Simpson.png"
+    },
+    {
+        "dni": "99999999I",
+        "nombre": "Maggie",
+        "apellido": "Simpson",
+        "fecha_nacimiento": "1988-01-12",
+        "dni_padre": "11111111A",
+        "dni_madre": "22222222B",
+        "foto": "familia_simpson/Maggie_Simpson.png"
+    }
+]
