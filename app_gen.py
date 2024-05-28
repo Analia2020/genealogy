@@ -86,7 +86,7 @@ labels = {dni: datos['nombre'] for dni, datos in G.nodes(data=True)}
 nx.draw_networkx_labels(G, pos, labels, font_size=8, font_color='black', ax=ax)
 
 # Dibujar aristas
-nx.draw_networkx_edges(G, pos, arrows=True, edge_color='black', ax=ax)
+nx.draw_networkx_edges(G, pos, arrows=False, edge_color='black', ax=ax)
 
 # Añadir imágenes a los nodos
 for dni, (x, y) in pos.items():
@@ -118,7 +118,7 @@ ancestros_comunes_dni = encontrar_acmr(G, dni_persona1_acmr, dni_persona2_acmr)
 ancestros_comunes_nombre = [G.nodes[dni]["nombre"] for dni in ancestros_comunes_dni]
 
 # Mostrar resultado de ACMR en Streamlit
-st.subheader("Resultado Ancestro Común Más Reciente")
+st.subheader("Resultado Ancestro Común Más Reciente - Linea ascendente")
 if len(ancestros_comunes_nombre) > 0:
     st.write(f"Los ancestros comunes más recientes entre {persona1_acmr} y {persona2_acmr} son:")
     for nombre in ancestros_comunes_nombre:
@@ -127,7 +127,7 @@ else:
     st.write(f"No se encontraron ancestros comunes entre {persona1_acmr} y {persona2_acmr}.")
 
 # Operación de Recorrido DFS
-st.header("Recorrido DFS")
+st.header("Linea descendente")
 st.sidebar.markdown("## Recorrido DFS")
 persona_dfs = st.sidebar.selectbox("Selecciona la persona para recorrido DFS:", list(nombre_a_dni.keys()))
 
